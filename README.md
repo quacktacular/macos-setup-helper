@@ -24,6 +24,13 @@ FileVault: On
 ===============================================
 ```
 
+## Snipe-IT ##
+The first addon feature is for the Snipe-IT API. If you use Snipe-IT, you can create an API token and have the script automatically add machines and update specs for you. Currently it supports these features.
+* Check if an asset exists and offer to add if missing
+* Supports CPU, RAM, storage, MAC address, battery health and more via custom fields
+* Update asset specs if they have changed since adding
+* Check the name matches existing records in the database (and offers to update if mistached)
+
 ## Todo ##
 * Move employee username feature to an addon (mostly useful for imaging)
 * Move "prepare" steps (password policy and disk rename) to an addon
